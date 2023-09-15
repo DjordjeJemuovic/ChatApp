@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.scss";
+import { Link } from 'react-router-dom';
 
 const Registration = () => {
   return (
@@ -42,7 +43,8 @@ const Registration = () => {
               <button type="submit" className="btn btn-primary">
                 Sing Up
               </button>
-              <p className="al-text">Already have an account?<a class="link-opacity-100" href="#">Log in</a></p>
+              <p className="al-text">Already have an account?</p> <br />
+              <Link to="/">Sign in</Link>
             </form>
           </div>
         </div>
